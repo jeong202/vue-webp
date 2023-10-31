@@ -12,14 +12,14 @@ import Text from "@/components/Text.vue"
 
 </script>
 <template>
-  <Header />
+  <Header element="nexon"/>
   <main>
-    <Slider />
-    <Image />
-    <ImgText />
-    <Card />
-    <Banner />
-    <Text />
+    <Slider element="nexon" />
+    <Image element="section nexon" title="포트폴리오가 실력이다."/>
+    <ImgText element="section nexon gray" />
+    <Card element="section nexon"  title="이미지 텍스트 유형01"/>
+    <Banner element="nexon" title="배너 영역" />
+    <Text element="section nexon" title="텍스트 유형01"/>
   </main>
   <Footer />
 </template>
